@@ -199,7 +199,7 @@ Compact metrics for coding agents
 One of the project's most important rules is:
 
 ```math
-\texttt{None} \neq 0
+\mathrm{None} \neq 0
 ```
 
 A missing metric must never silently become a zero.
@@ -361,7 +361,7 @@ r_i = y_i - \hat{y}_i
 \text{Next Feature}
 =
 \arg\max_{\phi}
-\operatorname{Score}\left(\phi(X), r\right)
+\mathrm{Score}\left(\phi(X), r\right)
 ```
 
 ```math
@@ -499,15 +499,9 @@ long_term_goal:
 <div align="center">
 
 <img
-  alt="Hamza Usta GitHub statistics"
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=onlyxItachi&show_icons=true&hide_border=true&include_all_commits=true"
-/>
-
-<img
   alt="Most used languages"
   height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=onlyxItachi&layout=compact&hide_border=true&langs_count=8"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=onlyxItachi&layout=compact&hide_border=true&langs_count=8&theme=transparent"
 />
 
 </div>
@@ -516,7 +510,7 @@ long_term_goal:
 
 <img
   alt="GitHub contribution streak"
-  src="https://streak-stats.demolab.com/?user=onlyxItachi&hide_border=true"
+  src="https://streak-stats.demolab.com/?user=onlyxItachi&hide_border=true&theme=transparent"
 />
 
 </div>
