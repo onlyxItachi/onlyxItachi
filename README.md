@@ -1,30 +1,26 @@
-<div align="center">
+<h1 align="center">Hi, I'm Hamza Usta 👋</h1>
 
-# Hi, I'm Hamza Usta 👋
+<h3 align="center">ML Systems · Compiler Infrastructure · HPC · AI Agents</h3>
 
-### ML Systems · Compiler Infrastructure · HPC · AI Agents
-
-<p>
+<p align="center">
   Computer Engineering student at Istanbul University.<br>
   Building native, performance-oriented systems at the intersection of
   machine learning, compilers, heterogeneous computing and AI agent infrastructure.
 </p>
 
-<p>
+<p align="center">
   <a href="https://github.com/onlyxItachi/GAFIME">
-    <img src="https://img.shields.io/badge/GAFIME-Feature%20Interaction%20Engine-blue?style=for-the-badge&logo=github" />
+    <img alt="GAFIME" src="https://img.shields.io/badge/GAFIME-Feature%20Interaction%20Engine-blue?style=for-the-badge&logo=github" />
   </a>
   <a href="https://github.com/onlyxItachi/PerfDigest-MCP">
-    <img src="https://img.shields.io/badge/PerfDigest-MCP%20Profiler%20Bridge-green?style=for-the-badge&logo=github" />
+    <img alt="PerfDigest MCP" src="https://img.shields.io/badge/PerfDigest-MCP%20Profiler%20Bridge-green?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=onlyxItachi&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/onlyxItachi?style=flat-square&label=Followers" />
+<p align="center">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=onlyxItachi&style=flat-square&label=Profile+Views" />
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/onlyxItachi?style=flat-square&label=Followers" />
 </p>
-
-</div>
 
 ---
 
@@ -50,11 +46,9 @@ And then it somehow turns into a C++, Rust, CUDA, ROCm or compiler project. 😅
 
 ---
 
-<div align="center">
+<h2 align="center">🧮 Engineering Philosophy</h2>
 
-## 🧮 Engineering Philosophy
-
-$$
+```math
 \boxed{
 \text{Useful AI Systems}
 =
@@ -64,15 +58,15 @@ $$
 \times
 \text{Evidence}
 }
-$$
+```
 
-$$
+```math
 \text{Performance}
 \neq
 \text{Guesswork}
-$$
+```
 
-$$
+```math
 \text{Correctness}
 +
 \text{Measurement}
@@ -80,9 +74,7 @@ $$
 \text{Reproducibility}
 \longrightarrow
 \text{Shippable Engineering}
-$$
-
-</div>
+```
 
 I care about systems whose claims can be supported by:
 
@@ -143,9 +135,7 @@ The larger goal is not merely to generate more features.
 It is to build an engine capable of discovering, evaluating and executing
 useful feature structures efficiently across different hardware backends.
 
-<div align="center">
-
-$$
+```math
 \text{Feature Search Cost}
 \propto
 \binom{d}{k}
@@ -153,9 +143,9 @@ $$
 N
 \times
 C_{\text{candidate}}
-$$
+```
 
-$$
+```math
 \text{GAFIME}
 \Longrightarrow
 \text{Native Search}
@@ -163,9 +153,7 @@ $$
 \text{Hardware-Aware Execution}
 +
 \text{Structured Reports}
-$$
-
-</div>
+```
 
 ---
 
@@ -210,9 +198,9 @@ Compact metrics for coding agents
 
 One of the project's most important rules is:
 
-$$
+```math
 \texttt{None} \neq 0
-$$
+```
 
 A missing metric must never silently become a zero.
 
@@ -267,27 +255,23 @@ Verified Artifacts and Shippable Work
 
 The core idea is simple:
 
-<div align="center">
-
-$$
+```math
 \text{Agent Confidence}
 <
 \text{Reproducible Evidence}
-$$
+```
 
-$$
+```math
 \text{Chat History}
 \neq
 \text{Durable System State}
-$$
+```
 
-$$
+```math
 \text{Done}
 \iff
 \text{Acceptance Criteria Satisfied}
-$$
-
-</div>
+```
 
 Synclave is being designed around:
 
@@ -369,20 +353,18 @@ This includes:
 - causal time-series transformations,
 - and hardware-accelerated candidate search.
 
-<div align="center">
-
-$$
+```math
 r_i = y_i - \hat{y}_i
-$$
+```
 
-$$
+```math
 \text{Next Feature}
 =
 \arg\max_{\phi}
 \operatorname{Score}\left(\phi(X), r\right)
-$$
+```
 
-$$
+```math
 \phi_{\text{path}}(x)
 =
 \prod_{k=1}^{m}
@@ -390,9 +372,7 @@ $$
 \left(
 s_k \cdot d_k \cdot (x_{f_k}-t_k)
 \right)
-$$
-
-</div>
+```
 
 The broader question is:
 
@@ -416,9 +396,7 @@ Potential directions include:
 - kernel caching,
 - and hardware-specific compilation.
 
-<div align="center">
-
-$$
+```math
 \text{Model}
 +
 \text{Execution Graph}
@@ -426,9 +404,7 @@ $$
 \text{Target Hardware}
 \longrightarrow
 \text{Specialized Program}
-$$
-
-</div>
+```
 
 ---
 
@@ -455,7 +431,7 @@ typed protocols, isolated workspaces and measurable acceptance contracts.
 
 <p>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
@@ -523,11 +499,13 @@ long_term_goal:
 <div align="center">
 
 <img
+  alt="Hamza Usta GitHub statistics"
   height="170"
-  src="https://github-readme-stats.vercel.app/api?username=onlyxItachi&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"
+  src="https://github-readme-stats.vercel.app/api?username=onlyxItachi&show_icons=true&hide_border=true&include_all_commits=true"
 />
 
 <img
+  alt="Most used languages"
   height="170"
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=onlyxItachi&layout=compact&hide_border=true&langs_count=8"
 />
@@ -537,7 +515,8 @@ long_term_goal:
 <div align="center">
 
 <img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=onlyxItachi&hide_border=true"
+  alt="GitHub contribution streak"
+  src="https://streak-stats.demolab.com/?user=onlyxItachi&hide_border=true"
 />
 
 </div>
@@ -559,24 +538,22 @@ I am especially interested in collaborating on projects involving:
 
 ---
 
-<div align="center">
+<h2 align="center">Final Principle</h2>
 
-## Final Principle
-
-$$
+```math
 \boxed{
 \text{Build deeply. Measure honestly. Ship reproducibly.}
 }
-$$
+```
 
-### Thanks for visiting 👋
+<h3 align="center">Thanks for visiting 👋</h3>
 
-<a href="mailto:hamzausta2222@gmail.com">
-  <img src="https://img.shields.io/badge/Email-hamzausta2222%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<p align="center">
+  <a href="mailto:hamzausta2222@gmail.com">
+    <img alt="Email Hamza Usta" src="https://img.shields.io/badge/Email-hamzausta2222%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 
-<a href="https://github.com/onlyxItachi">
-  <img src="https://img.shields.io/badge/GitHub-onlyxItachi-black?style=for-the-badge&logo=github" />
-</a>
-
-</div>
+  <a href="https://github.com/onlyxItachi">
+    <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-onlyxItachi-black?style=for-the-badge&logo=github" />
+  </a>
+</p>
