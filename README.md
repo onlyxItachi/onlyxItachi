@@ -337,50 +337,6 @@ and systems programming.
 
 ---
 
-# 🔬 Research Interests
-
-## Tabular Deep Learning
-
-I am researching how neural networks can discover and integrate the kinds of
-axis-aligned structures that gradient-boosted trees naturally exploit.
-
-This includes:
-
-- residual-directed feature mining,
-- differentiable decision paths,
-- learnable threshold structures,
-- gated feature augmentation,
-- causal time-series transformations,
-- and hardware-accelerated candidate search.
-
-```math
-r_i = y_i - \hat{y}_i
-```
-
-```math
-\text{Next Feature}
-=
-\arg\max_{\phi}
-\mathrm{Score}\left(\phi(X), r\right)
-```
-
-```math
-\phi_{\text{path}}(x)
-=
-\prod_{k=1}^{m}
-\sigma
-\left(
-s_k \cdot d_k \cdot (x_{f_k}-t_k)
-\right)
-```
-
-The broader question is:
-
-> Can a neural network learn the representation it is missing,
-> instead of only scaling its parameter count?
-
----
-
 ## Compiler-Driven Machine Learning
 
 I am also interested in execution systems where models, transformations
